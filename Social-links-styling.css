@@ -1,0 +1,60 @@
+body {
+  background-color: hsl(0, 0%, 12%);
+}
+img {
+  width: 50px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+h3 {
+  color: hsl(75, 94%, 57%);
+}
+h1,
+h3,
+p {
+  font-family: "Inter";
+}
+.button {
+  background-color: hsl(0, 0%, 20%);
+  width: 200px;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 35%;
+  margin: 80px;
+  width: 25%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -9.9%;
+    margin: 80px;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+  }
+}
